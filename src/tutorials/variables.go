@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
-	name := "Jude"
+	name := os.Getenv("USERNAME")
 	tvshow := "Poirot"
 
-	fmt.Println("\nHi", name, "you're currenty watching", tvshow)
+	fmt.Println("\nHi", name, ", you're currenty watching", tvshow)
 
 	changeTVShow(&tvshow)
 	fmt.Println("\nYou've changed the TV channel, and you're now watching", tvshow, ".")
