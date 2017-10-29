@@ -19,17 +19,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 396.0,
-		"last_filter": "git push",
+		"height": 243.0,
+		"last_filter": "git pull",
 		"selected_items":
 		[
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"swift",
+				"Set Syntax: Swift"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
 			[
 				"git push",
 				"Git: Push"
 			],
 			[
-				"git status",
-				"Git: Status"
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add all",
+				"Git: Add All"
+			],
+			[
+				"git add ",
+				"Git: Add All"
 			],
 			[
 				"git commit",
@@ -46,14 +70,6 @@
 			[
 				"go buil",
 				"Go: Reopen Build Output"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"git pull",
-				"Git: Pull"
 			],
 			[
 				"install ",
@@ -89,19 +105,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/git/go"
-	],
 	"file_history":
 	[
-		"/C/git/go/src/tutorials/calcs.go",
-		"/C/git/go/src/tutorials/variables.go",
+		"/D/git/go/src/tutorials/calcs.go",
+		"/C/Users/apollo/Desktop/orbtronics",
+		"/D/git/go/src/tutorials/variables.go",
+		"/C/Users/apollo/AppData/Roaming/Skype/My Skype Received Files/WeatherDataModel.swift",
+		"/C/Users/apollo/AppData/Roaming/Skype/My Skype Received Files/WeatherViewController.swift",
+		"/C/Users/apollo/AppData/Roaming/Mozilla/Firefox/Crash Reports/InstallTime20170824053622",
+		"/C/Users/apollo/AppData/Roaming/Mozilla/Firefox/Crash Reports/submitted/bp-afab4769-63a6-479f-b082-5a8d11170808.txt",
+		"/C/Users/apollo/AppData/Roaming/Mozilla/Firefox/Crash Reports/submitted/bp-73ab1cfb-5a08-4978-a979-32f341170630.txt",
+		"/D/Downloads/Native Instruments Komplete 9 Ultimate-FiLELiST/Native Instruments - Komplete 9 Ultimate D29/Native.Instruments.Komplete.9.Ultimate.D29.part01.rar",
 		"/C/Users/apollo/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -115,6 +134,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    ",
 			"}",
 			"Println",
 			"int"
@@ -125,6 +145,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -142,11 +163,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 69.0
 	},
 	"layout":
 	{
@@ -183,7 +204,7 @@
 	"project": "ps_golang.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -197,16 +218,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"C:\\git\\go\\src\\tutorials\\ps_golang.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -221,7 +238,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
